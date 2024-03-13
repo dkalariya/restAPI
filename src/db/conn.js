@@ -1,6 +1,6 @@
 const mongoose =require("mongoose");
 
-mongoose.connect(process.env.mongourl,
+mongoose.connect("mongodb://localhost:27017/students-api",
 {
     // useCreateIndex:true,
     useNewUrlParser:true,
